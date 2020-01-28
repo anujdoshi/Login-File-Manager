@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
     
     @IBAction func loginbtn(_ sender: UIButton) {
-        //loading()
+        loading()
         saveData()
         performSegue(withIdentifier: "showLogin", sender: self)
     }
